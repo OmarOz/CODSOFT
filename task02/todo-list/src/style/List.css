@@ -1,0 +1,47 @@
+.ViewLists {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ViewLists .list {
+  width: 400px;
+  height: 130px;
+  background-color: white;
+  box-shadow: 0px 0px 86px -37px #743ad5;
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ViewLists .list .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2px;
+  border-bottom: #743ad5 2px solid;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.ViewLists .list .title .btns button {
+  border: none;
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.ViewLists .list .desc {
+  height: calc(130px - 28px);
+  overflow-y: scroll;
+}
+.edit {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+}

@@ -1,0 +1,30 @@
+.Addbtn {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: none;
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+  box-shadow: 0px 0px 100px 0px #743ad5;
+  border-radius: 0px 0px 20px 20px;
+  color: white;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  transition: 0.5s cubic-bezier(0.86, 0.02, 0.16, 0.8);
+}
+
+.Addbtn:hover {
+  box-shadow: 0px 0px 1000px 0px #743ad5;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 50px;
+  height: fit-content;
+}
+
+.Home .Add {
+  position: absolute;
+  top: 0px;
+}

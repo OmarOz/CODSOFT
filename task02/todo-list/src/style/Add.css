@@ -1,0 +1,88 @@
+.Add-inner {
+  transform: translateZ(-100px);
+  animation: zoom 1s 1 forwards cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Add-inner form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 50px;
+  overflow: hidden;
+}
+.Add-inner form div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  font-size: 20px;
+}
+.Add-inner form div input {
+  width: 300px;
+  height: 20px;
+  margin-left: 83px;
+}
+
+.Add-inner form div textarea {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 22px;
+  height: 80px;
+}
+
+.Add {
+  display: flex;
+  perspective: 500px;
+  justify-content: center;
+  align-items: center;
+  animation: background_op 1s 1 forwards cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100vh;
+}
+
+.Add-inner form button {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: calc(50% - 50px);
+  top: 10px;
+  border: none;
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+  box-shadow: 0px 0px 50px 0px #743ad5;
+  border-radius: 15px;
+  color: white;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  transition: 0.5s cubic-bezier(0.86, 0.02, 0.16, 0.8);
+}
+
+.Add-inner form button:hover {
+  box-shadow: 0px 0px 1000px 0px #743ad5;
+  cursor: pointer;
+}
+
+@keyframes background_op {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: translateZ(-100px);
+  }
+  100% {
+    transform: translateZ(0px);
+  }
+}
