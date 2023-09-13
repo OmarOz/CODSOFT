@@ -1,0 +1,20 @@
+.Image{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    height:550px;
+
+    .text{
+        width: 700px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    img{
+        border: 5px solid #131131;
+        border-radius:10px ;
+        width: 400px;
+    }
+}

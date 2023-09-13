@@ -1,0 +1,33 @@
+.projects{
+    margin-bottom: 100px;
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(400px, auto);
+        justify-items: center;
+        align-items: center;
+        a{text-decoration: none;
+            
+        }
+        div{
+            border-radius: 25px;
+            padding: 10px;
+        }
+        .text{
+            color: #131131;
+            width: 600px;
+            height: 200px;
+            background-color: rgb(248, 245, 245);
+            .title {
+                    text-decoration: none;
+                    font-size: 30px;
+                    
+                }
+            .desc{
+                text-decoration: none;
+            }    
+        }
+        
+        
+}
+

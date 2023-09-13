@@ -1,0 +1,17 @@
+.skills {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(400px, auto);
+  justify-items: center;
+  align-items: center;
+  div{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  div img {
+    width: 150px;
+  }
+}

@@ -1,0 +1,17 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+    div {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+}
