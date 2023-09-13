@@ -29,7 +29,7 @@
 
 .ViewLists .list .title .btns button {
   border: none;
-  background-color: transparent;
+  /* background-color: white; */
 }
 
 button:hover {
@@ -44,4 +44,10 @@ button:hover {
   height: 100vh;
   position: absolute;
   top: 0px;
+}
+
+button {
+  margin: 0 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
 }

@@ -49,12 +49,9 @@ function ViewLists() {
             <div className="title">
               {e.title}
               <div className="btns">
-                <button onClick={() => handleClick(e.id)}>
-                  <FontAwesomeIcon icon={faPenToSquare} size="xl" />
-                </button>
-                <button onClick={() => deleteHandeler(e.id)}>
-                  <FontAwesomeIcon icon={faTrash} size="xl" />
-                </button>
+                <button onClick={() => handleClick(e.id)}>Edit</button>
+
+                <button onClick={() => deleteHandeler(e.id)}>Delete</button>
               </div>
             </div>
             <div className="desc">{e.description}</div>
